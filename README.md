@@ -2,6 +2,14 @@
 
 A GPU-accelerated tool for recovering DES keys from NetNTLMv1 authentication hashes using rainbow tables.
 
+## Credits
+
+This project is largely repurposed code from [rainbowcrackalack](https://github.com/jtesta/rainbowcrackalack) by Joe Testa. The original rainbow table generation and lookup algorithms, DES implementation, and OpenCL kernels were adapted from that project. As such, this project is licensed under the GPL-3.0 license. 
+
+See [LICENSE](LICENSE) for the full license text.
+
+The rainbow tables are based on a project led by Nic Losby over the last several years that resulted in this [Blog](https://cloud.google.com/blog/topics/threat-intelligence/net-ntlmv1-deprecation-rainbow-tables).
+
 ## Quick Start
 ```bash
 # Linux
